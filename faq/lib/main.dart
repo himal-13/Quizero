@@ -1,5 +1,5 @@
+import 'package:faq/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:quizero/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Quizero'),
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.transparent,
         ),
         body: const HomePage(),
       ),
