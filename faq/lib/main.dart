@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Quizero'),
+          title: const Text('FaQ'),
           backgroundColor: Colors.transparent,
         ),
         body: const HomePage(),
